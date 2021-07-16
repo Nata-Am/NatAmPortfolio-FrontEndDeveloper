@@ -1,0 +1,11 @@
+:root {
+  --first-font-family: "Josefin Sans", sans-serif;
+  --second-font-family: "News Cycle", sans-serif;
+  --third-font-family: "Parisienne", cursive;
+  --fourth-font-family: "Poppins", sans-serif;
+  --fifth-font-family: "Righteous", cursive;
+  --sixth-font-family: "Zen Loop", cursive;
+  --primary-color: #6c63ff;
+  --secondary-colo: #cccccc;
+  --third-color: #f2f2f2;
+}

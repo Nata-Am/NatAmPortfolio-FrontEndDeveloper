@@ -17,7 +17,7 @@
 .hero {
   text-align: center;
   background-color: var(--third-color);
-  padding: 140px 20px;
+  padding: 140px 20px 100px 20px;
 }
 
 .hero p {
@@ -56,4 +56,53 @@
   border-color: var(--primary-color);
   transition: all 200ms ease-in-out;
   font-weight: 600;
+}
+
+.portfolio-summary {
+  text-align: center;
+}
+
+.portfolio-summary h3 {
+  font-family: var(--sixth-font-family);
+  font-size: 80px;
+}
+
+.portfolio-summary .btn-projects {
+  font-family: var(--first-font-family);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 4px 20px;
+}
+
+.portfolio-summary .btn-projects:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+  font-weight: 600;
+}
+
+.project-name {
+  font-family: var(--sixth-font-family);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: dashed;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.project-name:hover {
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+  opacity: 1;
+}
+
+.line {
+  width: 60%;
+  margin: auto;
 }

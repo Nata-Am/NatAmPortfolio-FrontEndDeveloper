@@ -100,6 +100,7 @@
   color: var(--primary-color);
   transition: all 200ms ease-in-out;
   opacity: 1;
+  font-size: 40px;
 }
 
 .line {

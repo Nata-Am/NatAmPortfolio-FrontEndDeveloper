@@ -17,7 +17,7 @@
 .hero {
   text-align: center;
   background-color: var(--third-color);
-  padding: 140px 20px 100px 20px;
+  padding: 160px 20px 100px 20px;
 }
 
 .hero p {
@@ -86,7 +86,7 @@
   font-weight: 600;
 }
 
-.project-name {
+.project-link {
   font-family: var(--sixth-font-family);
   font-size: 30px;
   font-weight: 600;
@@ -94,16 +94,94 @@
   text-decoration: dashed;
   opacity: 0.5;
   cursor: pointer;
+  color: black;
 }
 
-.project-name:hover {
+.project-link:hover {
   color: var(--primary-color);
+  font-size: 50px;
+  font-weight: bold;
   transition: all 200ms ease-in-out;
   opacity: 1;
-  font-size: 40px;
 }
 
 .line {
   width: 60%;
   margin: auto;
+}
+
+.about-me {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about-me-myself {
+  font-family: var(--sixth-font-family);
+  font-size: 60px;
+  text-decoration: dashed;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.about-me-myself:hover {
+  color: var(--primary-color);
+  font-size: 50px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  opacity: 1;
+}
+
+.decoration {
+  color: var(--primary-color);
+  opacity: 0.5;
+  text-align: center;
+}
+
+.about-me-my-motto {
+  font-family: var(--sixth-font-family);
+  font-size: 40px;
+  opacity: 0.8;
+  color: var(--primary-color);
+}
+
+.social-media {
+  text-align: center;
+  background-color: var(--third-color);
+}
+
+.social-media ul {
+  list-style-type: none;
+  text-align: center;
+}
+.social-media ul li {
+  display: inline;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.social-media-link {
+  color: var(--secondary-color);
+}
+
+.social-media-link:hover {
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+
+.footer {
+  font-size: 13px;
+  color: #6e6c6c;
+  font-family: var(--first-font-family);
+  font-weight: 800;
+}
+
+.footer-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--primary-color);
+  font-size: 15px;
+  font-family: var(--second-font-family);
 }

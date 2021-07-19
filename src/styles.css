@@ -37,6 +37,7 @@
   font-family: var(--first-font-family);
   font-size: 30px;
   font-weight: bolder;
+  margin-bottom: 50px;
 }
 
 .hero .btn-contact {
@@ -103,6 +104,10 @@
   font-weight: bold;
   transition: all 200ms ease-in-out;
   opacity: 1;
+}
+
+.project-padding {
+  padding: 48px;
 }
 
 .line {
@@ -184,4 +189,47 @@
   color: var(--primary-color);
   font-size: 15px;
   font-family: var(--second-font-family);
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 54px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+  .hero .btn-contact {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .portfolio-summary h3 {
+    font-size: 54px;
+  }
+
+  .portfolio-summary .project-padding {
+    padding: 20px;
+  }
+
+  .portfolio-summary .container {
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 960px) {
+  .about-me-myself {
+    font-size: 54px;
+  }
+
+  .about-me-my-motto {
+    font-size: 30px;
+    margin: 0;
+  }
 }

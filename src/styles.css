@@ -193,7 +193,7 @@
 
 @media (max-width: 960px) {
   .hero h1 {
-    font-size: 54px;
+    font-size: 44px;
   }
   .hero p {
     font-size: 20px;
@@ -211,7 +211,7 @@
 
 @media (max-width: 960px) {
   .portfolio-summary h3 {
-    font-size: 54px;
+    font-size: 44px;
   }
 
   .portfolio-summary .project-padding {
@@ -225,11 +225,11 @@
 
 @media (max-width: 960px) {
   .about-me-myself {
-    font-size: 54px;
+    font-size: 44px;
   }
 
   .about-me-my-motto {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
   }
 }

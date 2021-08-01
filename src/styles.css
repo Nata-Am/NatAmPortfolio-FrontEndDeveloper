@@ -15,6 +15,10 @@
   font-size: larger;
 }
 
+.active {
+  color: var(--primary-color) !important;
+}
+
 .hero {
   text-align: center;
   background-color: var(--third-color);
@@ -148,11 +152,11 @@
   font-size: 40px;
   opacity: 0.8;
   color: var(--primary-color);
-  padding: 0px 100px;
+  padding: 0px 150px;
 }
 
 .coder-picture {
-  width: 400px;
+  width: 300px;
 }
 
 footer .social-media {
@@ -194,21 +198,26 @@ footer .project-coded-by {
 }
 
 footer .footer-link {
-  color: #6e6c6c;
+  color: var(--primary-color);
   text-decoration: none;
-  font-family: var(--second-font-family);
+  font-weight: bold;
+  font-weight: var(--fourth-font-family);
 }
 
 footer .footer-link:hover {
-  color: var(--primary-color);
+  color: #6e6c6c;
 }
 
 @media (max-width: 960px) {
+  .container-fluid {
+    font-size: 15px;
+  }
+
   .hero h1 {
-    font-size: 44px;
+    font-size: 34px;
   }
   .hero p {
-    font-size: 20px;
+    font-size: 22px;
   }
   .hero h2 {
     font-size: 22px;
@@ -238,20 +247,35 @@ footer .footer-link:hover {
     color: var(--primary-color);
     opacity: 1;
   }
+
+  .portfolio-summary .btn-projects {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px 20px;
+  }
 }
 
 @media (max-width: 960px) {
-  .about-me-myself {
-    font-size: 44px;
+  .about-me {
+    text-align: center;
+    margin: 50px 0px;
   }
 
-  .about-me-my-motto {
-    font-size: 25px;
-    margin: 0;
+  .about-me-myself {
+    font-size: 34px;
   }
 
   .coder-picture {
-    width: 220px;
-    padding: 10px;
+    width: 150px;
+    padding: 5px;
+  }
+
+  footer .social-media ul li a {
+    margin: 0 10px;
+    font-size: 17px;
+  }
+
+  footer .project-coded-by {
+    font-size: 12px;
   }
 }

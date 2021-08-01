@@ -12,6 +12,7 @@
 
 .container-fluid {
   font-family: var(--fourth-font-family);
+  font-size: larger;
 }
 
 .hero {
@@ -23,7 +24,7 @@
 .hero p {
   font-family: var(--first-font-family);
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -42,13 +43,13 @@
 
 .hero .btn-contact {
   font-family: var(--first-font-family);
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
   line-height: 27px;
   background-color: var(--primary-color);
   color: #ffffff;
   border-radius: 30px;
-  padding: 18px 30px;
+  padding: 10px 30px;
 }
 
 .hero .btn-contact:hover {
@@ -71,12 +72,12 @@
 .portfolio-summary .btn-projects {
   font-family: var(--first-font-family);
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 27px;
   background-color: var(--primary-color);
   color: #ffffff;
   border-radius: 40px;
-  padding: 4px 20px;
+  padding: 8px 20px;
 }
 
 .portfolio-summary .btn-projects:hover {
@@ -107,7 +108,7 @@
 }
 
 .project-padding {
-  padding: 48px;
+  padding: 78px;
 }
 
 .line {
@@ -117,7 +118,7 @@
 
 .about-me {
   text-align: center;
-  margin-bottom: 100px;
+  margin: 80px 0px;
 }
 
 .about-me-myself {
@@ -147,45 +148,57 @@
   font-size: 40px;
   opacity: 0.8;
   color: var(--primary-color);
+  padding: 0px 100px;
 }
 
-.social-media {
+.coder-picture {
+  width: 400px;
+}
+
+footer .social-media {
   text-align: center;
   background-color: var(--third-color);
 }
 
-.social-media ul {
+footer .social-media ul {
   list-style-type: none;
-  text-align: center;
 }
-.social-media ul li {
+
+footer .social-media ul li {
   display: inline;
-  padding: 0 10px;
   cursor: pointer;
 }
 
-.social-media-link {
-  color: var(--secondary-color);
-}
-
-.social-media-link:hover {
+footer .social-media ul li a {
+  margin: 0 20px;
+  padding: 5px 10px;
   color: var(--primary-color);
-  transition: all 200ms ease-in-out;
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 25px;
+  transition: all 100ms ease-in-out;
 }
 
-.footer {
-  font-size: 13px;
+footer .social-media ul li a:hover {
+  color: #ffffff;
+  background: var(--primary-color);
+}
+
+footer .project-coded-by {
+  font-size: 15px;
   color: #6e6c6c;
   font-family: var(--first-font-family);
   font-weight: 800;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
-.footer-link {
+footer .footer-link {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.footer-link:hover {
+footer .footer-link:hover {
   color: var(--primary-color);
   font-size: 15px;
   font-family: var(--second-font-family);

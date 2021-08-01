@@ -194,14 +194,13 @@ footer .project-coded-by {
 }
 
 footer .footer-link {
-  color: var(--primary-color);
+  color: #6e6c6c;
   text-decoration: none;
+  font-family: var(--second-font-family);
 }
 
 footer .footer-link:hover {
   color: var(--primary-color);
-  font-size: 15px;
-  font-family: var(--second-font-family);
 }
 
 @media (max-width: 960px) {
@@ -234,6 +233,11 @@ footer .footer-link:hover {
   .portfolio-summary .container {
     padding: 10px 12px;
   }
+
+  .project-link:hover {
+    color: var(--primary-color);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 960px) {
@@ -244,5 +248,10 @@ footer .footer-link:hover {
   .about-me-my-motto {
     font-size: 25px;
     margin: 0;
+  }
+
+  .coder-picture {
+    width: 220px;
+    padding: 10px;
   }
 }

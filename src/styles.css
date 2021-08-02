@@ -208,6 +208,16 @@ footer .footer-link:hover {
   color: #6e6c6c;
 }
 
+.hero-2 {
+  background-color: #ffffff;
+  padding: 160px 20px 50px 20px;
+}
+
+.hobbies img {
+  width: 150px;
+  padding: 0 30px;
+}
+
 @media (max-width: 960px) {
   .container-fluid {
     font-size: 15px;

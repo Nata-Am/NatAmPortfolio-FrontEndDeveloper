@@ -4,9 +4,231 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me|Natalia Amador</title>
+    <meta
+      name="description"
+      content="I am Natalia Amador, Front-end developer based in Mexico city. Check out my projects and contact me for further information. Let´s collaborate together!"
+    />
+    <title>Front-end developer|Natalia Amador</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=News+Cycle&family=Parisienne&family=Poppins&family=Righteous&family=Zen+Loop&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c593511406.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand text-muted" href="/" title="Nat.am homepage"
+          >Nat.Am |</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/"
+                title="Nat.am homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/about.html" title="About Nat.am"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/portfolio.html"
+                title="Nat.am Portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="Contact Nat.am"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero hero-2">
+      <p class="text-muted">✌ A little bit</p>
+      <h1 class="mb-3">About me</h1>
+      <div class="container hobbies">
+        <div class="row">
+          <div class="col">
+            <img
+              src="/images/Responsiveness.png"
+              class="img-fluid rounded-2"
+              alt="coding-image"
+            />
+            <img
+              src="/images/Finance.png"
+              class="img-fluid rounded-2"
+              alt="finance-image"
+            />
+            <img
+              src="/images/music.png"
+              class="img-fluid rounded-2"
+              alt="music-image"
+            />
+            <img
+              src="/images/yoga.png"
+              class="img-fluid rounded-2"
+              alt="yoga-image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="line" />
+    <div class="portfolio-summary"></div>
+    <hr class="line" />
+    <div class="container about-me">
+      <div class="row">
+        <div class="col-6">
+          <img
+            src="/images/Natalia.jpg"
+            class="coder-picture img-fluid rounded-2 shadow mb-4"
+            alt="Coder picture"
+          />
+          <div class="row">
+            <div class="col">
+              <p class="about-me-my-motto fw-bold">
+                My motto: live with meaning
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <p>
+            Hi, It´s a pleasure to meet you! I´m Natalia, a front-end developer
+            based in Mexico city. I studied Business Administration and Finance
+            and worked in this field for almost 5 years, however, I´ve always
+            like to be open to take on new paths and this time, thanks to the
+            pandemic, I discovered my passion for coding! Through this journey
+            full of knowledge acquired in the SheCodes workshops I´ve realized
+            that it is one of my goals become a professional web developer.
+          </p>
+          <a
+            href="/portfolio.html"
+            class="btn btn-projects shadow"
+            title="Nat.am Portfolio"
+            >Nata-Am codes</a
+          >
+        </div>
+      </div>
+      <hr class="line" />
+    </div>
+
+    <footer>
+      <div class="social-media pt-3">
+        <ul>
+          <li>
+            <a
+              href="mailto:nataliaa.amadorp@gmail.com"
+              target="_blank"
+              title="Nat.am mail contact"
+              class="social-media-link"
+            >
+              <i class="fas fa-envelope mail"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/natalia-amador-16526894/"
+              target="_blank"
+              title="Nat.am LinkedIn contact"
+              class="social-media-link"
+            >
+              <i class="fab fa-linkedin-in linked-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/ailatan_leon/"
+              target="_blank"
+              title="Nat.am Instagram contact"
+              class="social-media-link"
+            >
+              <i class="fab fa-instagram instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Nata-Am"
+              target="_blank"
+              title="Nat.am Github codes"
+              class="social-media-link"
+            >
+              <i class="fab fa-github github"></i
+            ></a>
+          </li>
+        </ul>
+        <p class="project-coded-by">
+          This project was coded by
+          <span
+            ><a
+              href="/about.html"
+              target="_blank"
+              class="footer-link"
+              title="About Nat.am"
+              >Natalia Amador</a
+            ></span
+          >
+          and is open-sourced on
+          <span>
+            <a
+              href="https://github.com/Nata-Am/NatAmPortfolio-FrontEndDeveloper"
+              target="_blank"
+              class="footer-link"
+              title="Nat.am Github responsive project code"
+              >Github</a
+            >
+          </span>
+          and hosted on
+          <span>
+            <a
+              href="https://sleepy-johnson-b458c6.netlify.app/"
+              target="_blank"
+              class="footer-link"
+              title="Nat.am Netlify hosted responsive project code"
+              >Netlify</a
+            >
+          </span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

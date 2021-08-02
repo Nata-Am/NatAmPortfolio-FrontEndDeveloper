@@ -202,12 +202,59 @@ footer .footer-link:hover {
 
 .hero-2 {
   background-color: #ffffff;
-  padding: 160px 20px 50px 20px;
+  padding: 160px 20px 40px 20px;
 }
 
 .hobbies img {
-  width: 150px;
+  width: 200px;
   padding: 0 30px;
+}
+
+.about-me-my-motto {
+  font-family: var(--sixth-font-family);
+  font-size: 30px;
+  opacity: 0.8;
+  color: var(--primary-color);
+  padding: 0px 150px;
+}
+
+.about-me .coder-description {
+  font-family: var(--first-font-family);
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 180px 0 0;
+}
+
+.text-highlight {
+  color: var(--primary-color);
+}
+
+.coder-greetings {
+  font-family: var(--sixth-font-family);
+  font-size: 50px;
+}
+
+.coder-background {
+  text-align: justify;
+}
+
+.about-me-btn .btn-git-codes {
+  font-family: var(--first-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 8px 20px;
+}
+
+.about-me-btn .btn-git-codes:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+  font-weight: 600;
 }
 
 @media (max-width: 960px) {

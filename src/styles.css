@@ -295,9 +295,17 @@ footer .footer-link:hover {
   margin: 0 auto;
 }
 
+.coder-certificates-tools .tools {
+  margin-top: 30px;
+}
+
 .coder-certificates-tools .tools-img {
-  width: 100px;
-  display: inline;
+  width: 120px;
+  padding-bottom: 80px;
+}
+
+.coder-certificates-tools .row {
+  flex-wrap: nowrap;
 }
 
 @media (max-width: 960px) {

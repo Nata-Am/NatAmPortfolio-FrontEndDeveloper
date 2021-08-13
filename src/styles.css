@@ -150,55 +150,6 @@
   width: 300px;
 }
 
-footer .social-media {
-  text-align: center;
-  background-color: var(--third-color);
-}
-
-footer .social-media ul {
-  list-style-type: none;
-}
-
-footer .social-media ul li {
-  display: inline;
-  cursor: pointer;
-}
-
-footer .social-media ul li a {
-  margin: 0 20px;
-  padding: 5px 10px;
-  color: var(--primary-color);
-  background: #ffffff;
-  border-radius: 50%;
-  font-size: 25px;
-  transition: all 100ms ease-in-out;
-}
-
-footer .social-media ul li a:hover {
-  color: #ffffff;
-  background: var(--primary-color);
-}
-
-footer .project-coded-by {
-  font-size: 15px;
-  color: #6e6c6c;
-  font-family: var(--first-font-family);
-  font-weight: 800;
-  margin: 0;
-  padding-bottom: 10px;
-}
-
-footer .footer-link {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: bold;
-  font-weight: var(--fourth-font-family);
-}
-
-footer .footer-link:hover {
-  color: #6e6c6c;
-}
-
 .header-section {
   text-align: center;
   background-color: var(--third-color);
@@ -218,7 +169,25 @@ footer .footer-link:hover {
   font-weight: bold;
 }
 
-.general-container .coder-description {
+.header-section .btn-contact {
+  font-family: var(--first-font-family);
+  font-size: 20px;
+  line-height: 27px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 14px 30px;
+}
+
+.header-section .btn-contact:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+  font-weight: 600;
+}
+
+.general-container .description {
   font-family: var(--first-font-family);
   text-align: justify;
   font-weight: 600;
@@ -235,7 +204,7 @@ footer .footer-link:hover {
   color: var(--primary-color);
 }
 
-.coder-description .btn-contact-me {
+.description .btn-contact-me {
   font-family: var(--first-font-family);
   font-weight: 500;
   font-size: 18px;
@@ -248,7 +217,7 @@ footer .footer-link:hover {
   margin-right: 80px;
 }
 
-.coder-description .btn-contact-me:hover {
+.description .btn-contact-me:hover {
   background-color: #ffffff;
   color: var(--primary-color);
   border-color: var(--primary-color);
@@ -307,6 +276,98 @@ footer .footer-link:hover {
 
 .tools ul li img {
   width: 80px;
+}
+
+.general-container .description .description-project {
+  font-family: var(--first-font-family);
+  text-align: justify;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 117px 67px;
+}
+
+.general-container .description-project h3 {
+  font-family: var(--second-font-family);
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.description-project .btn-contact-me {
+  margin-right: 10px;
+}
+
+.general-container .contact-buttons .social-media-link {
+  color: var(--primary-color);
+  padding: 5px 10px;
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 200ms ease-in-out;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.general-container .contact-buttons .social-media-link:hover {
+  color: #ffffff;
+  background: var(--primary-color);
+}
+
+.responsive-website-image {
+  width: 380px;
+}
+
+.weather-image {
+  width: 560px;
+}
+
+footer .social-media {
+  text-align: center;
+  background-color: var(--third-color);
+}
+
+footer .social-media ul {
+  list-style-type: none;
+}
+
+footer .social-media ul li {
+  display: inline;
+  cursor: pointer;
+}
+
+footer .social-media ul li a {
+  margin: 0 20px;
+  padding: 5px 10px;
+  color: var(--primary-color);
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 25px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-media ul li a:hover {
+  color: #ffffff;
+  background: var(--primary-color);
+}
+
+footer .project-coded-by {
+  font-size: 15px;
+  color: #6e6c6c;
+  font-family: var(--first-font-family);
+  font-weight: 800;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+footer .footer-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: var(--fourth-font-family);
+}
+
+footer .footer-link:hover {
+  color: #6e6c6c;
 }
 
 @media (max-width: 960px) {

@@ -321,6 +321,29 @@
   width: 560px;
 }
 
+.general-container .contact-media p {
+  margin: 0;
+  font-family: var(--first-font-family);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.general-container .contact-media a {
+  text-decoration: none;
+  text-align: left;
+  font-family: var(--fourth-font-family);
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.general-container .contact-media i {
+  font-size: 35px;
+  padding: 8px 10px;
+  color: #ffffff;
+  background: var(--primary-color);
+  border-radius: 50%;
+}
+
 footer .social-media {
   text-align: center;
   background-color: var(--third-color);

@@ -278,6 +278,11 @@
   width: 80px;
 }
 
+.tools ul li img:hover {
+  width: 60px;
+  transition: all 200ms ease-in-out;
+}
+
 .general-container .description .description-project {
   font-family: var(--first-font-family);
   text-align: justify;
@@ -336,12 +341,22 @@
   color: var(--primary-color);
 }
 
+.general-container .contact-media a:hover {
+  color: grey;
+  font-weight: 500;
+}
+
 .general-container .contact-media i {
   font-size: 35px;
   padding: 8px 10px;
   color: #ffffff;
   background: var(--primary-color);
   border-radius: 50%;
+}
+
+.general-container .contact-media i:hover {
+  color: var(--primary-color);
+  background: #ffffff;
 }
 
 footer .social-media {
@@ -374,7 +389,7 @@ footer .social-media ul li a:hover {
 }
 
 footer .project-coded-by {
-  font-size: 15px;
+  font-size: 18px;
   color: #6e6c6c;
   font-family: var(--first-font-family);
   font-weight: 800;

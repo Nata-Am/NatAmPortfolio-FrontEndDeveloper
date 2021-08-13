@@ -47,13 +47,12 @@
 
 .hero .btn-contact {
   font-family: var(--first-font-family);
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 27px;
   background-color: var(--primary-color);
   color: #ffffff;
-  border-radius: 30px;
-  padding: 10px 30px;
+  border-radius: 50px;
+  padding: 18px 34px;
 }
 
 .hero .btn-contact:hover {
@@ -200,35 +199,43 @@ footer .footer-link:hover {
   color: #6e6c6c;
 }
 
-.about-me-my-motto {
-  font-family: var(--sixth-font-family);
-  font-size: 30px;
-  opacity: 0.8;
-  color: var(--primary-color);
-  padding-bottom: 16px;
+.header-section {
+  text-align: center;
+  background-color: var(--third-color);
+  padding: 160px 20px 100px 20px;
 }
 
-.about-me .coder-description {
+.header-section h2 {
   font-family: var(--first-font-family);
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+
+.header-section h1 {
+  font-family: var(--fourth-font-family);
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.general-container .coder-description {
+  font-family: var(--first-font-family);
+  text-align: justify;
   font-weight: 600;
   font-size: 20px;
-  padding: 0 180px 0 0;
+  padding: 80px 50px;
+}
+
+.general-container .coder-greetings {
+  font-family: var(--first -font-family);
+  font-size: 30px;
 }
 
 .text-highlight {
   color: var(--primary-color);
 }
 
-.coder-greetings {
-  font-family: var(--sixth-font-family);
-  font-size: 50px;
-}
-
-.coder-background {
-  text-align: justify;
-}
-
-.about-me-btn .btn-git-codes {
+.coder-description .btn-contact-me {
   font-family: var(--first-font-family);
   font-weight: 500;
   font-size: 18px;
@@ -237,9 +244,11 @@ footer .footer-link:hover {
   color: #ffffff;
   border-radius: 40px;
   padding: 8px 20px;
+  margin-top: 20px;
+  margin-right: 80px;
 }
 
-.about-me-btn .btn-git-codes:hover {
+.coder-description .btn-contact-me:hover {
   background-color: #ffffff;
   color: var(--primary-color);
   border-color: var(--primary-color);
@@ -247,65 +256,57 @@ footer .footer-link:hover {
   font-weight: 600;
 }
 
-.coder-hobbies p {
-  font-family: var(--first-font-family);
-  font-weight: 600;
-  font-size: 20px;
+.coder-picture-aboutPage {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 
-.coder-hobbies .hobby-padding {
-  padding: 20px 0px 20px 100px;
+.coder-picture-aboutPage-padding {
+  padding-top: 50px;
 }
 
-.coder-hobbies .hobby-detail {
-  font-size: 15px;
-  padding-left: 80px;
-}
-
-.coder-hobbies h2 {
-  font-family: var(--sixth-font-family);
-  text-align: left;
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 80px;
-  padding: 50px 180px 50px 0;
-}
-
-.coder-certificates-tools .certificate-link-title {
-  font-family: var(--sixth-font-family);
+.coder-certificates,
+.tools h3 {
   text-align: center;
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 80px;
-  margin-top: 30px;
+}
+
+.coder-certificates .certificate-link-title,
+.tools .certificate-link-title {
+  font-family: var(--second-font-family);
+  text-align: center;
+  font-size: 70px;
   text-decoration: none;
   color: black;
 }
 
-.coder-certificates-tools .certificate-link-title:hover {
+.coder-certificates .certificate-link-title:hover {
   color: var(--primary-color);
-  font-size: 55px;
+  font-size: 73px;
   transition: all 200ms ease-in-out;
   opacity: 1;
 }
 
-.coder-certificates-tools .certificate-images {
-  width: 300px;
-  display: block;
-  margin: 0 auto;
+.coder-certificates .certificate-link-image {
+  width: 800px;
+  border-radius: 30px;
 }
 
-.coder-certificates-tools .tools {
-  margin-top: 30px;
+.tools ul {
+  list-style-type: none;
+  margin: 60px 0px;
+  text-align: center;
 }
 
-.coder-certificates-tools .tools-img {
-  width: 120px;
-  padding-bottom: 80px;
+.tools ul li {
+  display: inline;
+  cursor: pointer;
+  padding: 10px;
 }
 
-.coder-certificates-tools .row {
-  flex-wrap: nowrap;
+.tools ul li img {
+  width: 80px;
 }
 
 @media (max-width: 960px) {

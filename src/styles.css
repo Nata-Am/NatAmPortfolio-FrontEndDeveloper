@@ -229,7 +229,7 @@
   width: 500px;
   display: block;
   margin: 0 auto;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .coder-picture-aboutPage-padding {
@@ -241,9 +241,8 @@
   text-align: center;
 }
 
-.coder-certificates .certificate-link-title,
-.tools .certificate-link-title {
-  font-family: var(--second-font-family);
+.coder-certificates .certificate-link-title {
+  font-family: var(--third-font-family);
   text-align: center;
   font-size: 70px;
   text-decoration: none;
@@ -259,7 +258,19 @@
 
 .coder-certificates .certificate-link-image {
   width: 800px;
-  border-radius: 30px;
+  border-radius: 10px;
+}
+
+.coder-certificates .certificate-padding {
+  padding: 30px 80px;
+}
+
+.tools .tools-link-title {
+  font-family: var(--second-font-family);
+  text-align: center;
+  font-size: 70px;
+  text-decoration: none;
+  color: black;
 }
 
 .tools ul {
@@ -432,11 +443,18 @@ footer .footer-link:hover {
     padding: 120px 20px 80px 20px;
   }
 
-  .hero h1 {
+  .header-section {
+    padding: 120px 20px 40px 20px;
+  }
+
+  .hero h1,
+  .header-section h1 {
     font-size: 40px;
   }
+
   .hero p,
-  .hero h2 {
+  .hero h2,
+  .header-section h2 {
     font-size: 22px;
   }
 
@@ -469,27 +487,51 @@ footer .footer-link:hover {
     padding: 38px;
   }
 
+  .about-me .about-me-myself {
+    font-size: 40px;
+  }
+
+  .general-container .description {
+    font-size: 16px;
+    padding: 40px 10px;
+  }
+
+  .general-container .coder-greetings {
+    font-size: 20px;
+  }
+
+  .coder-picture-aboutPage {
+    width: 200px;
+  }
+
+  .contact-buttons-responsive .btn-contact-me {
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+  .coder-certificates .certificate-link-title,
+  .tools .tools-link-title {
+    font-size: 40px;
+  }
+
+  .coder-certificates .certificate-link-title:hover {
+    font-size: 45px;
+  }
+
+  .coder-certificates .certificate-link-image {
+    border-radius: 0px;
+  }
+
+  .certificate-padding {
+    padding: 10px !important;
+  }
+
   footer .social-media ul li a {
     font-size: 20px;
   }
 
   footer .project-coded-by {
     font-size: 12px;
-  }
-}
-
-@media (max-width: 960px) {
-  .about-me {
-    text-align: center;
-    margin: 50px 0px;
-  }
-
-  .about-me-myself {
-    font-size: 34px;
-  }
-
-  .coder-picture {
-    width: 150px;
-    padding: 5px;
   }
 }

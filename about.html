@@ -102,14 +102,14 @@
               discovered my passion for coding!</span
             >
           </p>
-          <p>
+          <p class="d-none d-sm-block">
             Through this journey full of knowledge acquired in the SheCodes
             workshops, I´ve realized that it is one of my goals
             <span class="text-highlight">
               become a professional web developer</span
             >.
           </p>
-          <p>
+          <p class="d-sm-none d-md-block d-none d-sm-block">
             I am keen on choral singing, yoga, learning foreign languages and
             travelling. To me be in touch with nature is a must.
           </p>
@@ -119,7 +119,13 @@
             <span class="text-highlight">live with meaning 😉</span>
           </p>
 
-          <div class="contact-buttons text-start">
+          <div
+            class="
+              contact-buttons
+              text-start
+              d-none d-sm-block d-sm-none d-md-block
+            "
+          >
             <a
               href="/portfolio.html"
               class="btn btn-contact-me shadow"
@@ -146,6 +152,27 @@
             "
             alt="Nat.Am coder picture"
           />
+          <div
+            class="
+              contact-buttons-responsive
+              text-center
+              description
+              d-lg-none d-xl-block
+            "
+          >
+            <a
+              href="/portfolio.html"
+              class="btn btn-contact-me shadow"
+              title="Nat.Am Portfolio"
+              >See my portfolio</a
+            >
+            <a
+              href="/contact.html"
+              class="btn btn-contact-me shadow"
+              title="Contact Nat.Am"
+              >Contact me</a
+            >
+          </div>
         </div>
       </div>
       <hr class="line" />
@@ -160,7 +187,7 @@
             >Certificates</a
           >
         </h3>
-        <div class="col-sm-6 p-5">
+        <div class="col-sm-6 certificate-padding">
           <a
             href="https://www.shecodes.io/students/257-natalia-amador-11c5ddba-5761-48b5-936c-2d1dbdce20cd"
             target="_blank"
@@ -174,11 +201,10 @@
                 border border-black
                 shadow
                 certificate-link-image
-                d-none d-lg-block
               "
           /></a>
         </div>
-        <div class="col-sm-6 p-5">
+        <div class="col-sm-6 certificate-padding">
           <a
             href="https://www.shecodes.io/students/275-natalia-amador"
             target="_blank"
@@ -193,7 +219,6 @@
                 border border-black
                 shadow
                 certificate-link-image
-                d-none d-lg-block
               "
             />
           </a>
@@ -202,10 +227,7 @@
       <hr class="line" />
       <div class="tools pt-5 pb-5">
         <h3 class="mb-5">
-          <a
-            href="#"
-            class="certificate-link-title"
-            title="Coding languages & tools"
+          <a href="#" class="tools-link-title" title="Coding languages & tools"
             >Languages & Tools</a
           >
         </h3>

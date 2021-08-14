@@ -493,7 +493,7 @@ footer .footer-link:hover {
 
   .general-container .description {
     font-size: 16px;
-    padding: 40px 10px;
+    padding: 40px 20px;
   }
 
   .general-container .coder-greetings {
@@ -525,6 +525,24 @@ footer .footer-link:hover {
 
   .certificate-padding {
     padding: 10px !important;
+  }
+
+  .header-section .btn-contact {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+
+  .general-container .description .description-project {
+    padding: 0px 67px;
+  }
+
+  .general-container .description-project h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .description-project .contact-buttons {
+    text-align: center !important;
   }
 
   footer .social-media ul li a {

@@ -359,6 +359,21 @@
   background: #ffffff;
 }
 
+.going-up a {
+  text-decoration: none;
+}
+
+.going-up .fa-chevron-up {
+  display: block;
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+.going-up .fa-chevron-up:hover {
+  font-size: 45px;
+  color: var(--primary-color);
+}
+
 footer .social-media {
   text-align: center;
   background-color: var(--third-color);

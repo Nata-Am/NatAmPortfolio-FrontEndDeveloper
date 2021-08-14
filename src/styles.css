@@ -425,48 +425,56 @@ footer .footer-link:hover {
 
 @media (max-width: 960px) {
   .container-fluid {
-    font-size: 15px;
+    font-size: 18px;
+  }
+
+  .hero {
+    padding: 120px 20px 80px 20px;
   }
 
   .hero h1 {
-    font-size: 34px;
+    font-size: 40px;
   }
-  .hero p {
-    font-size: 22px;
-  }
+  .hero p,
   .hero h2 {
     font-size: 22px;
-    margin-bottom: 40px;
   }
+
   .hero .btn-contact {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     padding: 4px 20px;
   }
-}
 
-@media (max-width: 960px) {
   .portfolio-summary h3 {
     font-size: 44px;
   }
 
-  .portfolio-summary .project-padding {
-    padding: 20px;
+  .portfolio-summary .btn-projects {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 4px 20px;
   }
 
-  .portfolio-summary .container {
-    padding: 10px 12px;
+  .project-link {
+    font-size: 30px;
   }
 
   .project-link:hover {
     color: var(--primary-color);
-    opacity: 1;
+    font-size: 30px;
   }
 
-  .portfolio-summary .btn-projects {
-    font-weight: 500;
-    font-size: 15px;
-    padding: 4px 20px;
+  .project-padding {
+    padding: 38px;
+  }
+
+  footer .social-media ul li a {
+    font-size: 20px;
+  }
+
+  footer .project-coded-by {
+    font-size: 12px;
   }
 }
 
@@ -483,14 +491,5 @@ footer .footer-link:hover {
   .coder-picture {
     width: 150px;
     padding: 5px;
-  }
-
-  footer .social-media ul li a {
-    margin: 0 10px;
-    font-size: 17px;
-  }
-
-  footer .project-coded-by {
-    font-size: 12px;
   }
 }
